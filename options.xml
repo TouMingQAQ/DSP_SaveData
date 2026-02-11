@@ -1,0 +1,85 @@
+<Options>
+  <CurrentVersion>
+    <VersionNumber>6</VersionNumber>
+  </CurrentVersion>
+  <Video>
+    <ResolutionWidth>2560</ResolutionWidth>
+    <ResolutionHeight>1440</ResolutionHeight>
+    <ResolutionRefreshRate>240.002</ResolutionRefreshRate>
+    <ResolutionRefreshRateNumerator>240002</ResolutionRefreshRateNumerator>
+    <ResolutionRefreshRateDenominator>1000</ResolutionRefreshRateDenominator>
+    <Fullscreen>1</Fullscreen>
+    <DisplayMode>0</DisplayMode>
+    <VerticalSynchronization>1</VerticalSynchronization>
+    <VSync>1</VSync>
+    <MaxFPS>60</MaxFPS>
+    <ImageFXMaster>1</ImageFXMaster>
+    <BloomLevel>2</BloomLevel>
+    <SSAO>0</SSAO>
+    <MSAA>4</MSAA>
+    <FXAA>1</FXAA>
+    <ShadowMode>2</ShadowMode>
+    <PlanetSurfaceShadow>0</PlanetSurfaceShadow>
+    <PlanetaryAtmosphereBlur>1</PlanetaryAtmosphereBlur>
+    <Nephogram>2</Nephogram>
+    <CloudParticle>2</CloudParticle>
+    <WreckageLimit>500</WreckageLimit>
+    <WreckageNLifeTime>1</WreckageNLifeTime>
+    <Dithering>1</Dithering>
+  </Video>
+  <Audio>
+    <GameMainVolume>0.4</GameMainVolume>
+    <SoundEffectVolume>0.95</SoundEffectVolume>
+    <CombatSoundEffectVolume>0.4</CombatSoundEffectVolume>
+    <AmbientSoundEffectVolume>0.9</AmbientSoundEffectVolume>
+    <MusicVolume>0.65</MusicVolume>
+    <DFAttackAlertVolume>0.95</DFAttackAlertVolume>
+    <MechaAlertVolume>0.95</MechaAlertVolume>
+    <BroadcastWarningVolume>0.95</BroadcastWarningVolume>
+    <BroadcastVocalStyles />
+    <BackgroundMute>0</BackgroundMute>
+  </Audio>
+  <Gameplay>
+    <AutosavingInterval>480</AutosavingInterval>
+    <CameraRotationSensitivityX>1</CameraRotationSensitivityX>
+    <CameraRotationSensitivityY>1</CameraRotationSensitivityY>
+    <CameraZoomSensitivity>1</CameraZoomSensitivity>
+    <BuildingWarningMask>2147483647</BuildingWarningMask>
+    <ResearchQueueAlwaysOnDisplay>1</ResearchQueueAlwaysOnDisplay>
+    <AutomaticallyMoveBuildingTarget>1</AutomaticallyMoveBuildingTarget>
+    <BuildViewMode>1</BuildViewMode>
+    <UILayoutPixelHeight>0</UILayoutPixelHeight>
+    <DemolishContainerQuery>1</DemolishContainerQuery>
+    <LogicalFrameThreadsCount>0</LogicalFrameThreadsCount>
+    <MilkyWayActivated>1</MilkyWayActivated>
+    <DataUploadToTheMilkyWay>0</DataUploadToTheMilkyWay>
+    <BackgroundPause>0</BackgroundPause>
+    <ParallelFramework enabled="1">
+      <ParallelThreadCount>0</ParallelThreadCount>
+      <AutoThreadStrategy>1</AutoThreadStrategy>
+      <ThreadAffinityStrategy main-normal="FirstCoreShared" worker-normal="EachPerCore" main-hybrid="SinglePCoreShared" worker-hybrid="EachPerPCoreOr2xECores" />
+      <ThreadBarrierStrategy frame-event="1" frame-spin="0" phase-event="0" phase-spin="80" />
+      <CustomMainThreadAffinity group="0" mask="3" />
+      <CustomWorkerThreadAffinity>
+        <ThreadAffinity thread="0" group="0" mask="12" />
+        <ThreadAffinity thread="1" group="0" mask="48" />
+        <ThreadAffinity thread="2" group="0" mask="192" />
+        <ThreadAffinity thread="3" group="0" mask="768" />
+        <ThreadAffinity thread="4" group="0" mask="3072" />
+        <ThreadAffinity thread="5" group="0" mask="3" />
+        <ThreadAffinity thread="6" group="0" mask="12" />
+        <ThreadAffinity thread="7" group="0" mask="48" />
+        <ThreadAffinity thread="8" group="0" mask="192" />
+        <ThreadAffinity thread="9" group="0" mask="768" />
+        <ThreadAffinity thread="10" group="0" mask="3072" />
+      </CustomWorkerThreadAffinity>
+    </ParallelFramework>
+  </Gameplay>
+  <Control />
+  <Miscellaneous>
+    <Language>2052</Language>
+    <TipLevel>2</TipLevel>
+    <AdvisorTips>1</AdvisorTips>
+    <OpeningCinematic>1</OpeningCinematic>
+  </Miscellaneous>
+</Options>
