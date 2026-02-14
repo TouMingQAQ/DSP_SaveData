@@ -28,11 +28,11 @@
     <Dithering>1</Dithering>
   </Video>
   <Audio>
-    <GameMainVolume>0.4</GameMainVolume>
-    <SoundEffectVolume>0.95</SoundEffectVolume>
-    <CombatSoundEffectVolume>0.4</CombatSoundEffectVolume>
+    <GameMainVolume>0.2</GameMainVolume>
+    <SoundEffectVolume>0.63</SoundEffectVolume>
+    <CombatSoundEffectVolume>0.31</CombatSoundEffectVolume>
     <AmbientSoundEffectVolume>0.9</AmbientSoundEffectVolume>
-    <MusicVolume>0.65</MusicVolume>
+    <MusicVolume>0.27</MusicVolume>
     <DFAttackAlertVolume>0.95</DFAttackAlertVolume>
     <MechaAlertVolume>0.95</MechaAlertVolume>
     <BroadcastWarningVolume>0.95</BroadcastWarningVolume>
