@@ -37,6 +37,7 @@
     <MechaAlertVolume>0.95</MechaAlertVolume>
     <BroadcastWarningVolume>0.95</BroadcastWarningVolume>
     <BroadcastVocalStyles />
+    <CombatMusicEnabled>1</CombatMusicEnabled>
     <BackgroundMute>0</BackgroundMute>
   </Audio>
   <Gameplay>
